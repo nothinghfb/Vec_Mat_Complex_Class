@@ -24,12 +24,30 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HFB_Vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HFB_Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HFB_Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Vec_Mat_Complex_Class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HFB_Vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HFB_Matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HFB_Complex.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
