@@ -20,6 +20,7 @@ template<typename ComplexType> struct  HFB_Vector_ComplexType
 	unsigned int length = 0;
 };
 
+
 template<class T>
 class HFB_Vector
 {
