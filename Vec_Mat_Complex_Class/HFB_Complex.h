@@ -33,6 +33,14 @@ public:
 };
 
 template<typename TR, typename TI>
+auto HFB_Complex<TR, TI>::mod()
+{
+	double rt = 0.;
+	rt =  sqrtl((double)real*real + (double)imag*imag);
+	return rt;
+}
+
+template<typename TR, typename TI>
 void HFB_Complex<TR, TI>::multi(HFB_Complex<TR, TI> obj)
 {
 	TR r = this->real;
